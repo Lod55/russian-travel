@@ -1,2 +1,24 @@
 /* Normalize */
-@import url(../vendor/normalize.css);
+@import '../vendor/normalize.css';
+/* Font  */
+@import '../fonts/inter.css';
+/* Body */
+@import '../blocks/body/body.css';
+/* Root */
+@import '../blocks/root/root.css';
+/* Header Links Link*/
+@import '../blocks/header/header.css';
+@import '../blocks/header/__logo/header__logo.css';
+@import '../blocks/header/__links/header__links.css';
+@import '../blocks/header/__lang-link/header__link.css';
+@import '../blocks/header/__lang-link/_active/header__lang-link_active.css';
+
+
+
+html {
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
