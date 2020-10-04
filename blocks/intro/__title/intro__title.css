@@ -1,0 +1,9 @@
+.intro__title {
+  width: 100%;
+  margin: 0 0 40px;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 107%;
+  min-height: 58px;
+  max-width: 690px;
+}
