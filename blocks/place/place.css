@@ -1,0 +1,9 @@
+.place {
+  display: flex;
+  min-height: 660px;
+  margin-bottom: 80px;
+}
+
+.place:last-of-type {
+  margin-bottom: 92px;
+}

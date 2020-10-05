@@ -3,5 +3,6 @@
   justify-content: space-between;
   align-items: center;
   min-height: 52px;
-  margin: 28px 48px 56px;
+  margin: 28px auto 56px;
+  min-width: 1184px;
 }

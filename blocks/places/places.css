@@ -1,7 +1,3 @@
 .places {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex-wrap: wrap;
-  min-width: 984px;
+  max-width: 984px;
 }

@@ -1,6 +1,4 @@
 .intro {
-  display: flex;
-  flex-direction: column;
   min-width: 984px;
   min-height: 429px;
   margin-bottom: 92px;
