@@ -2,15 +2,14 @@
 @import url('../vendor/normalize.css');
 /* Font  */
 @import url('../fonts/fonts.css');
-/* Root */
-@import url('../blocks/root/root.css');
+/* Page */
+@import url('../blocks/page/page.css');
+@import url('../blocks/page/__container/page__container.css');
 /* Header */
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__logo/header__logo.css');
 @import url('../blocks/header/__lang-link/header__link.css');
 @import url('../blocks/header/__lang-link/_active/header__lang-link_active.css');
-/* Content */
-@import url('../blocks/content/content.css');
 /* Lead */
 @import url('../blocks/lead/lead.css');
 @import url('../blocks/lead/__title/lead__title.css');
@@ -26,44 +25,29 @@
 @import url('../blocks/intro/__span-score/intro__span-score.css');
 /* Photo-grid */
 @import url('../blocks/photo-grid/photo-grid.css');
+@import url('../blocks/photo-grid/__list/photo-grid__list.css');
 @import url('../blocks/photo-grid/__item/photo-grid__item.css');
 /* Places Place */
 @import url('../blocks/places/places.css');
 @import url('../blocks/place/place.css');
-@import url('../blocks/place/__left-column/place__left-column.css');
 @import url('../blocks/place/__title/place__title.css');
-@import url('../blocks/place/__image/place__image.css');
-@import url('../blocks/place/__right-column/place__right-column.css');
 @import url('../blocks/place/__website/place__website.css');
 @import url('../blocks/place/__url-heading/place__url-heading.css');
 @import url('../blocks/place/__link/place__link.css');
+@import url('../blocks/place/__image/place__image.css');
+@import url('../blocks/place/__paragraphs/place__paragraphs.css');
 @import url('../blocks/place/__paragraph/place__paragraph.css');
 /* Cover */
 @import url('../blocks/cover/cover.css');
-@import url('../blocks/cover/__text/cover__text.css');
-@import url('../blocks/cover/__text-title/cover__text-title.css');
-@import url('../blocks/cover/__text-subtitle/cover__text-subtitle.css');
+@import url('../blocks/cover/__text-block/cover__text-block.css');
+@import url('../blocks/cover/__text-block-title/cover__text-block-title.css');
+@import url('../blocks/cover/__text-block-subtitle/__text-block-subtitle.css');
 @import url('../blocks/cover/__overlay/cover__overlay.css');
 @import url('../blocks/cover/__background/cover__background.css');
+
 /* Footer */
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__links/footer__links.css');
 @import url('../blocks/footer/__list-item/footer__list-item.css');
 @import url('../blocks/footer/__link/footer__link.css');
 @import url('../blocks/footer/__copyright/footer__copyright.css');
-
-
-
-
-
-html {
-  font-size: 16px;
-}
-
-* {
-  box-sizing: border-box;
-}
- body {
-  background-color: #2A2C2F;
- }
- 

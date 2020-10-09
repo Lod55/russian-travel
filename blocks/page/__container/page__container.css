@@ -1,0 +1,26 @@
+.page__container {
+  font-family: 'Inter', Arial, sans-serif;
+  min-width: 320px;
+  max-width: 1184px;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+
+@media screen and (max-width: 1279px) {
+  .page__container {
+      width: calc(100% - 2 * 48px);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .page__container {
+    width: calc(100% - 2 * 24px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page__container {
+    width: calc(100% - 2 * 16px);
+  }
+}

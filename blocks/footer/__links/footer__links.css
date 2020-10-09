@@ -4,3 +4,10 @@
   margin: 0;
   padding: 0;
 }
+
+@media screen and (max-width: 767px) {
+  .footer__links {
+    flex-direction: column;
+    margin-bottom: 48px;
+  }
+}

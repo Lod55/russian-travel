@@ -1,5 +1,9 @@
 .place__website {
-  margin-bottom: 48px;
-  max-height: 46px;
-  width: 100%;
+  align-self: end;
+}
+
+@media screen and (max-width: 767px) {
+  .place__website {
+      display: none;
+  }
 }
