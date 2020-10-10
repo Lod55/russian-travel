@@ -2,9 +2,15 @@
   margin: 0 0 24px;
   font-weight: 400;
   font-size: 18px;
-  line-height: 163%;
+  line-height: 170%;
 }
 
 .place__paragraph:last-of-type {
   margin: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .place__paragraph {
+    line-height: 100%;
+  }
 }

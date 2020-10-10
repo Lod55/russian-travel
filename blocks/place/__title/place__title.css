@@ -16,7 +16,7 @@
   .place__title {
       width: calc(100% - 16px * 2);
       margin: 0 auto;
-      font-size: 35px;
+      font-size: 32px;
       line-height: 109%;
   }
 }
