@@ -3,9 +3,16 @@
   margin: 0 auto 92px;
 }
 
+@media screen and (max-width: 1279px) {
+  .photo-grid {
+    width: calc(100% - 2 * 48px);
+  }
+}
+
 @media screen and (max-width: 1023px) {
   .photo-grid {
     margin: 0 auto 88px;
+    width: calc(100% - 2 * 24px);
   }
 }
 
