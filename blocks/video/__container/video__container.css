@@ -1,0 +1,5 @@
+.video__container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 102px;
+}

@@ -39,6 +39,16 @@
 @import url('../blocks/place/__image/place__image.css');
 @import url('../blocks/place/__paragraphs/place__paragraphs.css');
 @import url('../blocks/place/__paragraph/place__paragraph.css');
+/* Video  Content-title Content-subtitle */
+@import url('../blocks/video/video.css');
+@import url('../blocks/content-title/content-title.css');
+@import url('../blocks/content-subtitle/content-subtitle.css');
+@import url('../blocks/video/__container/video__container.css');
+@import url('../blocks/video/__overlay/video__overlay.css');
+@import url('../blocks/video/__icon-play/video__icon-play.css');
+@import url('../blocks/video/__duration/video__duration.css');
+@import url('../blocks/video/__title/video__title.css');
+@import url('../blocks/video/__subtitle/video__subtitle.css');
 /* Cover */
 @import url('../blocks/cover/cover.css');
 @import url('../blocks/cover/__overlay/cover__overlay.css');
