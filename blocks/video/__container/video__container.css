@@ -1,5 +1,4 @@
 .video__container {
+  align-self: baseline;
   display: flex;
-  justify-content: center;
-  padding-bottom: 102px;
 }
